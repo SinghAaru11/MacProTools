@@ -1,0 +1,291 @@
+/* nav bar starts*/
+
+.btn-support {
+    border: 2px solid #f57b00c0;
+    background-color: #ffffff;
+    color: #f57b00c0;
+    margin-right: 20px;
+}
+
+.btn-support:hover {
+    color: #3b88ff;
+    border: 2px solid #3b88ff !important;
+}
+
+
+
+.btn-live-chat {
+    border: 2px solid #2e2e2e;
+    background-color: #2e2e2e;
+    color: #ffffff !important;
+    margin-right: 20px;
+}
+
+.btn-live-chat:hover {
+    color: rgb(255, 255, 255);
+    background-color: #3b88ff;
+}
+
+
+.nav-details {
+    column-gap: 16px;
+}
+
+.nav-details li a {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-details:hover {
+
+    color: black;
+
+}
+
+/* navbar end */
+
+
+
+
+/* section first start */
+
+.banner-btn {
+    background-color: #303030;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 11px 1px 0px #4646461a;
+    padding: 16px 54px 16px 56px;
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 0.7px;
+}
+
+.sec-first {
+    padding: 5rem 2rem;
+    /* padding top and bottom */
+    background: linear-gradient(341deg, #f1f1f1, white);
+    padding: 4.6rem 0 8rem;
+}
+
+
+/* section first end */
+
+
+
+/* section second start */
+
+
+.box{
+background-color: #ffffff;
+}
+
+.box:hover {
+    border-color: #303030;
+    box-shadow: 0px 0px 52px 0px rgb(165 165 165 / 22%);
+    transform: translate(0, -13px);
+    transition: 0.3s;
+}
+
+
+.angle-icon {
+    padding: 4px 18px 9px 14px;
+    background-color: #ffffff !important;
+    /* border-color: #003057; */
+    border-radius: 50%;
+    border: 2px solid #857e7e;
+    font-size: 35px;
+    color: #003057;
+}
+.angle-icon:hover {
+ 
+    background-color: #003057 !important;
+    color: #ffffff
+}
+
+
+.pdf-icon {
+    position: absolute;
+    top: 66%;
+    left: 64%;
+    /* transform: translate(-106%, -93%); */
+    /* width: 71px; */
+    height: 75px;
+}
+
+/* .sec-second .card {
+    width: 19rem;
+    padding: 20px;
+} */
+
+.sec-second {
+    background-color: #f8f9fa;
+}
+
+/* Note */
+/* In this case,
+translate(0, -13px) moves the element vertically upwards by 13px when hovered. 
+The translate() function is used for moving elements along the X and Y axes.
+the translation along the x-axis (horizontal direction),here the horizental move is set zero.
+And -13px represents the y-axis translation, moving the element 13px upwards(vertically)
+
+transition Property: Specifies the transition effect when the properties of the element change. 
+In this case, it takes 0.3s for the transition to occur, giving a smooth animation effect.
+
+*/
+
+
+/* animation-name:.card ; */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+/* animation:card 5s ease-in normal ; */
+
+/* .card:hover {
+   
+    border: 2px solid #2e2e2e !important;
+    position: relative;
+    animation: mymove 0.15s  ease-in-out 1 normal  ;
+   
+  }
+  
+  @keyframes mymove {
+    from {bottom: 0px;}
+    to {bottom: 20px;}
+  } */
+
+
+/* section second ends */
+
+
+
+
+/* section third starts */
+
+.sec-third{
+    background-image: url(/image/dotted\ -bg.png);
+    background-color:  #242424;
+}
+
+
+/* section third ends */
+
+
+
+
+
+
+
+/* section fourth starts */
+
+/* .sec-fourth .card {
+    width: 22rem;
+    padding: 20px;
+} */
+.sec-fourth{
+ background-color: #f8f9fa; 
+}
+
+/* section fourth end */
+
+
+
+
+
+/* section five starts */
+
+.sec-four-btn {
+
+    background-color: #303030;
+    color: #fff;
+}
+
+
+
+.sec-five {
+    background-color: #303030;
+}
+
+.hc-icon {
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    border-radius: 51px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sec-four-btn:hover {
+
+    background-color: #303030;
+    color: #fff;
+}
+
+
+/* section five end */
+
+
+
+/* section six start */
+
+.carousel-inner .carousel-item .staricon {
+    color: #ffc107;
+    font-size: 40px;
+}
+
+.carousel-inner .carousel-item .carousel-caption1 p {
+    color: #fff !important;
+}
+
+.carousel-inner .carousel-item .carousel-caption1 h5 {
+    color: #fff !important;
+}
+
+/* section six end */
+
+
+
+
+/* footer starts */
+.footersection {
+    padding: 100px 0px;
+    background-color: #353538;
+}
+
+.address h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.address p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.footermenu h4 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footermenu li {
+    color: #fff;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.footermenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footermenu .socialicon a {
+    background-color: #fff;
+    /* width: 50px; */
+    /* height: 50px; */
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* footer ends */
